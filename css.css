@@ -1,0 +1,31 @@
+.top_heding {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+  color: palevioletred;
+}
+.para {
+  text-align: center;
+  font-size: 20px;
+
+  color: rgb(224, 72, 98);
+}
+.parent {
+  margin-top: 20px;
+  display: flex;
+  background-color: bisque;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: none;
+  border-radius: 10px;
+}
+.mixed-food {
+  width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 20px;
+}
+.ch2 {
+  margin-right: 20px;
+  margin-left: 30px;
+}
