@@ -58,6 +58,10 @@
   border: none;
   box-shadow: 0px 0px 9px 0px black;
 }
+.card:hover {
+  box-shadow: 0px 0px 9px 0px grey;
+  border: 1px solid palevioletred;
+}
 .card_info {
   margin-left: 12px;
 }
@@ -111,5 +115,15 @@
   }
   .card_info {
     font-size: 12px;
+  }
+  .youtube {
+    width: 400px;
+  }
+  .youtube-1nd {
+    border: none;
+    border-radius: 20px;
+  }
+  .youtube-2nd {
+    display: none;
   }
 }
