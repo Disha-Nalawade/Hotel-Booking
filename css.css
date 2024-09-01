@@ -61,3 +61,12 @@
 .card_info {
   margin-left: 12px;
 }
+.Welcome {
+  padding: 20px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+  background-color: #ff884d;
+  border: none;
+  border-radius: 20px;
+}
