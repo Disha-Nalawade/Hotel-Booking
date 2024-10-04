@@ -134,13 +134,9 @@
     display: none;
   }
 }
-@media screen and(min-width: 501px) and (max-width: 700px) {
-  body {
-    background-color: black;
-  }
+@media screen and (min-width: 501px) and (max-width: 700px) {
   .top_heding {
     font-size: 40px;
-    color: black;
   }
   .para {
     font-size: 19px;
@@ -159,12 +155,12 @@
     height: 650px;
   }
   .card {
-    width: 280px;
-    height: 450px;
+    width: 250px;
+    height: 400px;
   }
   .swimming-pool-image {
-    width: 280px;
-    height: 320px;
+    width: 250px;
+    height: 250px;
   }
   .card_info {
     font-size: 14px;
@@ -178,5 +174,48 @@
   }
   .youtube-2nd {
     display: none;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 1107px) {
+  .top_heding {
+    font-size: 53px;
+  }
+  .para {
+    font-size: 19px;
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+  .parent {
+    width: 850px;
+  }
+  .headding {
+    font-size: 32px;
+  }
+  .card_container {
+    width: 950px;
+    height: 950px;
+    margin: 50px 70px;
+  }
+  .card {
+    width: 260px;
+    height: 430px;
+  }
+  .swimming-pool-image {
+    width: 260px;
+    height: 255px;
+  }
+  .card_info {
+    font-size: 15px;
+  }
+  .youtube {
+    width: 1050px;
+  }
+  .youtube-1nd {
+    border: none;
+    border-radius: 20px;
+    width: 450px;
+  }
+  .youtube-2nd {
+    width: 450px;
   }
 }
